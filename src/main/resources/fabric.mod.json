@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "modernlights",
+	"version": "${version}",
+	"name": "Modern Lights",
+	"description": "Adds simple and modern looking light blocks to Minecraft",
+	"authors": [
+		"sythatic",
+		"1_Jammy"
+	],
+	"license": "CC BY-NC-SA 4.0",
+	"icon": "assets/modernlights/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.sythatic.modernlights.ModernLights"
+		],
+		"fabric-datagen": [
+			"com.sythatic.modernlights.ModernLightsDataGenerator"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": ">=1.21 <=1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
